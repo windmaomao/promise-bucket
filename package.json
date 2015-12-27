@@ -1,0 +1,29 @@
+{
+  "name": "promise-bucket",
+  "version": "0.0.1",
+  "description": "angular promise bucket for centralized APIs",
+  "main": "src/promise-bucket.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start tests/karma.conf.js"
+  },
+  "keywords": [
+    "angular",
+    "api"
+  ],
+  "author": "Fang Jin",
+  "license": "MIT",
+  "dependencies": {},
+  "engine": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  },
+  "devDependencies": {
+    "angular": "^1.4.1",
+    "angular-mocks": "^1.4.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  }
+}
